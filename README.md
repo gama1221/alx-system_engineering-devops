@@ -7,6 +7,7 @@
         4. Working with Commands
         5. Reading Man Pages
         6. LTS
-### Author
-    - WhatsApp +251991732949
-    - [Telegram](t.me/gama2112)
+
+## Author
+    - ** WhatsApp ** +251991732949
+    - [Telegram](https://t.me/gama2112)
