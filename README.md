@@ -9,5 +9,5 @@
         6. LTS
 
 # Author
-    - **WhatsApp** +251991732949
+    - [WhatsApp](+251991732949)
     - [Telegram](https://t.me/gama2112)
