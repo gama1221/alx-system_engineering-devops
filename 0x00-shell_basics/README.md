@@ -273,5 +273,5 @@
 	ubuntu@ip-172-31-63-244:/tmp/magic$
 	```
 ### Author
-    - WhatsApp +251991732949
-    - [Telegram](t.me/gama2112)
+1. [WhatsApp](https://wa.me/+251991732949)
+2. [Telegram](https://t.me/gama2112)
