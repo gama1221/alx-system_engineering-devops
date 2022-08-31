@@ -1,13 +1,13 @@
 # 0x00. Shell, basics 
 0. [Where am I?](https://github.com/gama1221/alx-system_engineering-devops/blob/main/0x00-shell_basics/0-current_working_directory)
-	- Write a script that prints the absolute path name of the current working directory.
+	. Write a script that prints the absolute path name of the current working directory.
 	```shell
 	$ ./0-current_working_directory 
 	/root/alx-system_engineering-devops/0x00-shell_basics
 	$
 	```
 1. [What’s in there?](https://github.com/gama1221/alx-system_engineering-devops/blob/main/0x00-shell_basics/1-listit)
-	Display the contents list of your current directory.
+	. Display the contents list of your current directory.
 
 	Example:
 	```shell
@@ -17,7 +17,7 @@
 	$
 	```
 2. [There is no place like home](https://github.com/gama1221/alx-system_engineering-devops/blob/main/0x00-shell_basics/2-bring_me_home)
-	Write a script that changes the working directory to the user’s home directory.
+	. Write a script that changes the working directory to the user’s home directory.
 		- You are not allowed to use any shell variables
 		```shell
 		julien@ubuntu:/tmp$ pwd
@@ -30,7 +30,7 @@
 		julien@ubuntu:~$ 
 		```
 3. [The long format](https://github.com/gama1221/alx-system_engineering-devops/blob/main/0x00-shell_basics/3-listfiles)
-	Display current directory contents in a long format
+	. Display current directory contents in a long format
 
 	Example:
 	```shell
@@ -43,7 +43,7 @@
 	$
 	```
 4. [Hidden files](https://github.com/gama1221/alx-system_engineering-devops/blob/main/0x00-shell_basics/4-listmorefiles)
-	Display current directory contents, including hidden files (starting with .). Use the long format.
+	. Display current directory contents, including hidden files (starting with .). Use the long format.
 
 	Example:
 	```shell
@@ -59,7 +59,7 @@
 	$
 	```
 5. [I love numbers](https://github.com/gama1221/alx-system_engineering-devops/blob/main/0x00-shell_basics/5-listfilesdigitonly)
-	Display current directory contents.
+	. Display current directory contents.
 
 		. Long format
 		. with user and group IDs displayed numerically
@@ -79,7 +79,7 @@
 	$
 	```
 6. [Welcome](https://github.com/gama1221/alx-system_engineering-devops/blob/main/0x00-shell_basics/6-firstdirectory)
-	Create a script that creates a directory named my_first_directory in the /tmp/ directory.
+	. Create a script that creates a directory named my_first_directory in the /tmp/ directory.
 
 	Example:
 	```shell
@@ -89,7 +89,7 @@
 	$
 	```
 7. [Betty in my first directory](https://github.com/gama1221/alx-system_engineering-devops/blob/main/0x00-shell_basics/7-movethatfile)
-	Move the file betty from /tmp/ to /tmp/my_first_directory.
+	. Move the file betty from /tmp/ to /tmp/my_first_directory.
 
 	Example:
 	```shell
@@ -99,7 +99,7 @@
 	$
 	```
 8. [Bye bye Betty](https://github.com/gama1221/alx-system_engineering-devops/blob/main/0x00-shell_basics/8-firstdelete)
-	Delete the file betty.
+	. Delete the file betty.
 
 		. The file betty is in /tmp/my_first_directory
 	Example:
@@ -109,7 +109,7 @@
 	$
 	```
 9. [Bye bye My first directory](https://github.com/gama1221/alx-system_engineering-devops/blob/main/0x00-shell_basics/9-firstdirdeletion)
-	Delete the directory my_first_directory that is in the /tmp directory.
+	. Delete the directory my_first_directory that is in the /tmp directory.
 
 	Example:
 	```shell
@@ -119,7 +119,7 @@
 	$
 	```
 10. [ Back to the future](https://github.com/gama1221/alx-system_engineering-devops/blob/main/0x00-shell_basics/10-back)
-	Write a script that changes the working directory to the previous one.
+	. Write a script that changes the working directory to the previous one.
 	```shell
 	julien@ubuntu:/tmp$ pwd
 	/tmp
@@ -132,9 +132,9 @@
 	/tmp
 	```
 11. [Lists](https://github.com/gama1221/alx-system_engineering-devops/blob/main/0x00-shell_basics/11-lists)
-	Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
+	. Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
 12. [File Type](https://github.com/gama1221/alx-system_engineering-devops/blob/main/0x00-shell_basics/12-file_type)
-	Write a script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script.
+	. Write a script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script.
 
 	Example
 	```shell
@@ -142,7 +142,7 @@
 	/tmp/iamafile: ELF 64-bit LSB  executable, x86-64, version 1 (SYSV), dynamically linked (uses shared libs), for GNU/Linux 2.6.24, BuildID[sha1]=bd39c07194a778ccc066fc963ca152bdfaa3f971, stripped
 	```
 13. [We are symbols, and inhabit symbols](https://github.com/gama1221/alx-system_engineering-devops/blob/main/0x00-shell_basics/13-symbolic_link)
-	Create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory.
+	. Create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory.
 	```shell
 	ubuntu@ip-172-31-63-244:/tmp/sym$ ls -la
 	total 144
@@ -156,13 +156,13 @@
 	lrwxrwxrwx  1 ubuntu ubuntu      7 Sep 20 03:24 __ls__ -> /bin/ls
 	```
 14. [Copy HTML files](https://github.com/gama1221/alx-system_engineering-devops/blob/main/0x00-shell_basics/14-copy_html)
-	Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
+	. Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
 
 	You can consider that all HTML files have the extension .html
 15. [Let’s move](https://github.com/gama1221/alx-system_engineering-devops/blob/main/0x00-shell_basics/100-lets_move)
-	Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
+	. Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
 
-	You can assume that the directory /tmp/u will exist when we will run your script
+	. You can assume that the directory /tmp/u will exist when we will run your script
 
 	```shell 
 	ubuntu@ip-172-31-63-244:/tmp/sym$ ls -la
@@ -192,7 +192,7 @@
 	-rw-rw-r-- 1 ubuntu ubuntu    0 Sep 20 03:32 Elif_ym
 	```
 16. [Clean Emacs](https://github.com/gama1221/alx-system_engineering-devops/blob/main/0x00-shell_basics/101-clean_emacs)
-	Create a script that deletes all files in the current working directory that end with the character ~.
+	. Create a script that deletes all files in the current working directory that end with the character ~.
 
 	```shell
 	ubuntu@ip-172-31-63-244:/tmp/sym$ ls
@@ -203,9 +203,9 @@
 	ubuntu@ip-172-31-63-244:/tmp/emacs$
 	```
 17. [Tree](https://github.com/gama1221/alx-system_engineering-devops/blob/main/0x00-shell_basics/102-tree)
-	Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
+	. Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
 
-	You are only allowed to use two spaces (and lines) in your script, not more.
+	. You are only allowed to use two spaces (and lines) in your script, not more.
 
 	```shell
 	julien@ubuntu:/tmp/h$ ls -l
@@ -228,7 +228,7 @@
 	julien@ubuntu:/tmp/h$ 
 	```
 18. [Life is a series of commas, not periods](https://github.com/gama1221/alx-system_engineering-devops/blob/main/0x00-shell_basics/103-commas) 
-	Write a command that lists all the files and directories of the current directory, separated by commas (,).
+	. Write a command that lists all the files and directories of the current directory, separated by commas (,).
 
 	Directory names should end with a slash (/)
 	Files and directories starting with a dot (.) should be listed
@@ -248,7 +248,7 @@
 	ubuntu@ubuntu:~/$
 	```
 19. [File type: School](https://github.com/gama1221/alx-system_engineering-devops/blob/main/0x00-shell_basics/school.mgc)	
-	Create a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0.
+	. Create a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0.
 
 	```shell
 	ubuntu@ip-172-31-63-244:/tmp/magic$ cp /bin/ls .
@@ -272,3 +272,6 @@
 	thisisatextfile:       ASCII text
 	ubuntu@ip-172-31-63-244:/tmp/magic$
 	```
+### Author
+    - WhatsApp +251991732949
+    - [Telegram](t.me/gama2112)
