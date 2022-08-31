@@ -8,6 +8,6 @@
         5. Reading Man Pages
         6. LTS
 
-# Author
+### Author
 1. [WhatsApp](https://wa.me/+251991732949)
 2. [Telegram](https://t.me/gama2112)
