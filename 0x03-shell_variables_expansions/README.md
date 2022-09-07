@@ -77,3 +77,6 @@
         . WATER is in base water
         . STIR is in base stir.
         . The result should be in base bestchol
+### Author
+1. [WhatsApp](https://wa.me/+251991732949)
+2. [Telegram](https://t.me/gama2112)
