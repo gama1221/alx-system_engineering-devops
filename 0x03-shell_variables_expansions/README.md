@@ -3,7 +3,6 @@
 
 0. [<o>](https://github.com/gama1221/alx-system_engineering-devops/blob/main/0x03-shell_variables_expansions/0-alias)
 	. Create a script that creates an alias.
-
     Name: ls
     Value: rm *
 	```shell
