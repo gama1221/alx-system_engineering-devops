@@ -1,6 +1,6 @@
 <h1>Distributed Web Infrastructures Design</h1>
 <img src="2-secured_and_monitored_web_infrastructure.png" />
-<a herf="https://miro.com/app/board/uXjVPj_HF6g=/"> Visit Online Board</a>
+<a href="https://miro.com/app/board/uXjVPj_HF6g=/"> Visit Online Board</a>
 <h1>
     Description
 </h1>
