@@ -1,5 +1,5 @@
 <h1>Distributed Web Infrastructures Design</h1>
-<img src="1-distributed_web_infrastructure.png" />
+<img src="1-distributed_web_infrastructure.PNG" />
 <a herf="https://miro.com/app/board/uXjVPj4aDkQ=/"> Visit Online Board</a>
 <h1>
     Description
