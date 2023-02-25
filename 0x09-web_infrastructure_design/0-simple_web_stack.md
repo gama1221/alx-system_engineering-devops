@@ -1,5 +1,5 @@
 <img src="0-simple_web_stack.png" />
-<a href="https://miro.com/app/board/uXjVPj4aDlo=/">Visit online Bord</a>
+<a href="https://miro.com/app/board/uXjVPj4aDlo=/">Visit online Board</a>
 <h1>
     Description
 </h1>
