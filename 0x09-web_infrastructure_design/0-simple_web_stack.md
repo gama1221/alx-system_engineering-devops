@@ -37,3 +37,18 @@ What the server uses to communicate with the client (computer of the user reques
 Communication between the client and the server occurs over the internet network through the TCP/IP protocol suite.
         </p>
         </ul>
+<h1> Issues With This Infrastructure Design </h1>
+<p>
+<ul><li>
+    There are multiple SPOF (Single Point Of Failure) in this infrastructure.
+For example, if the MySQL database server is down, the entire site would be down.
+    </li>
+    <li>
+Downtime when maintenance needed.
+When we need to run some maintenance checks on any component, they have to be put down or the server has to be turned off. Since there's only one server, the website would be experiencing a downtime.
+    </li>
+    <li>
+Cannot scale if there's too much incoming traffic.
+It would be hard to scale this infrastructure becauses one server contains the required components. The server can quickly run out of resources or slow down when it starts receiving a lot of requests.
+    </li>
+    </ul>
