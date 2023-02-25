@@ -5,7 +5,7 @@
 </h1>
 This is a simple web infrastructure that hosts a website that is reachable via www.foobar.com/8.8.8.8 ip address.
 <h1>
-    Specifics About This Infrastructure
+    Specifics About This Infrastructure Design
 </h1>
 <ul>
     <li><strong> Server? </strong>.</li>
