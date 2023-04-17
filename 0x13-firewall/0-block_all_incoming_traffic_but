@@ -5,11 +5,12 @@
 # 443 (HTTPS SSL)
 # 80 (HTTP)
 
-sudo ufw status verbose
-sudo ufw default deny incoming
-sudo ufw default allow outgoing
-sudo ufw allow ssh
-sudo ufw allow http
-sudo ufw allow https
-sudo ufw enable
-sudo ufw status verbose
+apt-get install ufw
+sed -i 's/IPV6=.*/IPV6=yes/' /etc/default/ufw
+ufw disable
+ufw enable
+ufw default deny incoming
+ufw default allow outgoing
+ufw allow 22/tcp
+ufw allow 443/tcp
+ufw allow 80/tcp
