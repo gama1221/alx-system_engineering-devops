@@ -32,4 +32,4 @@ Names the resulting tar archive in the format day-month-year.tar.gz.
 ---
 
 ## Author
-* **Getinet Amare** - [Getinet Amare](https://github.com/getinet1221)
+* **Getinet Amare** - [Getinet Amare](https://github.com/gama1221)
